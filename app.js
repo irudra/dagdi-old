@@ -8,11 +8,6 @@ var session = require("express-session");
 var passport = require("passport");
 var localStrategy = require("passport-local").Strategy;
 var user = require('./routes/user');
-var mongo = require("mongodb");
-var mongoose = require("mongoose");
-mongoose.connect('mongodb://localhost/runfordev');
-var db = mongoose.connection;
-
 
 var event = require('./routes/events');
 var login = require('./routes/login');

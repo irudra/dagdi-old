@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 var request = require('request');
-var User = require('../model/User');
 
 router.post('/', function(req, res){
     console.log('Inside Post request');
