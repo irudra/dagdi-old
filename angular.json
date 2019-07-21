@@ -28,11 +28,7 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< .merge_file_TMcRrC
               "src/styles.scss"
-=======
-              "src/styles.css"
->>>>>>> .merge_file_aR17SB
             ],
             "scripts": []
           },
@@ -92,11 +88,7 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< .merge_file_TMcRrC
               "src/styles.scss"
-=======
-              "src/styles.css"
->>>>>>> .merge_file_aR17SB
             ],
             "scripts": []
           }
