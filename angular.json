@@ -5,11 +5,15 @@
   "projects": {
     "dagdi-ui": {
       "projectType": "application",
+<<<<<<< .merge_file_TMcRrC
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
         }
       },
+=======
+      "schematics": {},
+>>>>>>> .merge_file_aR17SB
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -28,7 +32,11 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< .merge_file_TMcRrC
               "src/styles.scss"
+=======
+              "src/styles.css"
+>>>>>>> .merge_file_aR17SB
             ],
             "scripts": []
           },
@@ -88,7 +96,11 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< .merge_file_TMcRrC
               "src/styles.scss"
+=======
+              "src/styles.css"
+>>>>>>> .merge_file_aR17SB
             ],
             "scripts": []
           }
