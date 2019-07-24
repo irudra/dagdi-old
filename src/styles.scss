@@ -1,11 +1,11 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
 $allFontFamily: 'Roboto', Arial, sans-serif;
-$allColor: #616161;
 $smothingFont:antialiased;
 $buttonColor:#1976d2;
 
 * {
     font-family: $allFontFamily;
-    color: $allColor;
     box-sizing: border-box;
     -webkit-font-smoothing: $smothingFont;
     -moz-osx-font-smoothing: grayscale;
@@ -18,6 +18,7 @@ $buttonColor:#1976d2;
   .container {
     display: flex;
     flex-direction: row;
+    align-content: center
   }
   
   router-outlet + *  {
